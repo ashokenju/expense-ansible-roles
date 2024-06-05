@@ -1,0 +1,12 @@
+[db]
+db.devopenju9.site
+
+[backend]
+backend.daws78s.online
+
+[frontend]
+frontend.daws78s.online
+
+[all:vars]
+ansible_user=ashok
+ansible_password=ashok
