@@ -9,6 +9,14 @@
    state: started
    enabled: yes
 
+- name: Ensure Python and pip are installed
+  ansible.builtin.yum:
+    name: 
+      - python39
+      - python39-pip
+    state: present
+
+
 
 - name: install python mysql dependencies
   ansible.builtin.pip:
