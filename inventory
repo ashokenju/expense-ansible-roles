@@ -8,5 +8,5 @@ backend.daws78s.online
 frontend.daws78s.online
 
 [all:vars]
-ansible_user=ashok
+ansible_user=centos1
 ansible_password=ashok
