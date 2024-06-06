@@ -9,12 +9,7 @@
    state: started
    enabled: yes
 
-- name: Ensure Python and pip are installed
-  ansible.builtin.yum:
-    name: 
-      - python3.9
-      - python3.9-pip
-    state: present
+
 
 
 
